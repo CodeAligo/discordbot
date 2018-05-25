@@ -7,7 +7,7 @@ token = "NDQ5NDI0MzE2NzE5ODI0ODk3.DekfVA.SBdHjXbsSVySV5hzBPwYYfSq9Ak"
 
 @client.event
 async def on_ready():
-    print("complete login")
+    print("Logged in as")
     print(client.user.name)
     print(client.user.id)
     print("=======")
